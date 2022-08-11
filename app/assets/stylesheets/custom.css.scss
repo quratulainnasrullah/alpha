@@ -94,13 +94,17 @@ footer ul li
 //     margin-top: 10px;
 // }
 
-.well
+
+
+.article-title
 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
 
-
-
-    background-color: #D5D8DC ;
-
-
-
+.article-body
+{
+    border-top: 1px solid #eaeaea;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
