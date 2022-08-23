@@ -67,7 +67,7 @@ class UsersController < ApplicationController
         @user = User.find(params[:id])
 
     end
-    def require_same_user
+    def require_same_user 
 
         if current_user != @user and !current_user.admin?
             flash[:danger]="You can only edit your account"
